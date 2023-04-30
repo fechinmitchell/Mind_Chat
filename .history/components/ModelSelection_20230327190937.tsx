@@ -21,7 +21,7 @@ function ModelSelection() {
                 isLoading={isLoading}
                 menuPosition='fixed'
                 classNames={{
-                    control: (state) => "bg-[#F0F0F0] border-[#3C3C3C]",
+                    control: (state) => "bg-[#3C3C3C] border-[#434654]",
                 }}
                 onChange={(e) => setModel(e.value)}
             />

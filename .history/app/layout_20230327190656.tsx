@@ -25,7 +25,7 @@ export default async function RootLayout({
           ): (
               <div className = "flex">
           {/* Sidebar */ }
-          <div className='bg-[#4C566A] max-w-xs h-screen overflow-y-auto md:min-w-[20rem]'>
+          <div className='bg-[#81A1C1] max-w-xs h-screen overflow-y-auto md:min-w-[20rem]'>
             <SideBar />
           </div>
 

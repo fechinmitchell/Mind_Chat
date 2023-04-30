@@ -6,12 +6,12 @@ function Login() {
   return (
     <div className="bg-[#ADD8E6] h-screen flex flex-col items-center justify-center text-center">
       <Image 
-        src="https://i.imgur.com/J3SSaec.jpg"
-        width={400}
-        height={400}
+        src="images/logo_bg.png"
+        width={300}
+        height={300}
         alt="logo"
       />
-      <button onClick={() =>signIn('google')} className="text-white font-bold text-3xl animate-pulse"> Sign In to use Mind Chat</button>
+      <button onClick={() =>signIn('google')} className="text-white font-bold text-3xl animate-pulse"> Sign In to use Mind</button>
     </div>
   )
 }

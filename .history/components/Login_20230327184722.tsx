@@ -7,8 +7,7 @@ function Login() {
     <div className="bg-[#ADD8E6] h-screen flex flex-col items-center justify-center text-center">
       <Image 
         src="https://i.imgur.com/J3SSaec.jpg"
-        width={400}
-        height={400}
+        width={500}
         alt="logo"
       />
       <button onClick={() =>signIn('google')} className="text-white font-bold text-3xl animate-pulse"> Sign In to use Mind Chat</button>

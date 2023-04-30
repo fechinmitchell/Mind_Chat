@@ -28,7 +28,7 @@ function HomePage() {
                 <div className="space-y-2">
                     <p className="infoText">"Change the ChatGPT Model to use "</p>
                     <p className="infoText">"Messages are stored in Firebase's Firestore"</p>
-                    <p className="infoText">"Hot Toast notification when ChatGPT is thinking!"</p>
+                    <p className="infoText">"Hot Toast notification when Mind Chat is thinking!"</p>
                 </div>
             </div>
 

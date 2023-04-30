@@ -4,11 +4,11 @@ import Image from "next/image";
 
 function Login() {
   return (
-    <div className="bg-[#ADD8E6] h-screen flex flex-col items-center justify-center text-center">
+    <div className="bg-[#ADD8E6] h-screen flex flex-col items-center justify-center text-center animate-pulse">
       <Image 
         src="https://i.imgur.com/J3SSaec.jpg"
-        width={400}
-        height={400}
+        width={300}
+        height={300}
         alt="logo"
       />
       <button onClick={() =>signIn('google')} className="text-white font-bold text-3xl animate-pulse"> Sign In to use Mind Chat</button>
